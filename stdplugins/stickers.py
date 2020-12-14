@@ -22,7 +22,7 @@ from telethon.tl.types import (
 )
 
 
-@borg.on(slitu.admin_cmd(pattern="kangsticker ?(.*)"))
+@borg.on(slitu.admin_cmd(pattern="kang ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -38,7 +38,7 @@ async def _(event):
         sticker_emoji = input_str
 
     userid = borg.uid
-    packname = f"{userid}'s @UniBorg Pack"
+    packname = f"ZAYN MALIK pack by @t_onystar_k"
     packshortname = Config.STICKERS_PNG_SHORT_NAME
 
     is_a_s = is_it_animated_sticker(reply_message)
