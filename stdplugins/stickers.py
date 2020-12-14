@@ -39,7 +39,7 @@ async def _(event):
 
     userid = borg.uid
     packname = f"ZAYN MALIK pack by @t_onystar_k"
-    packshortname = Config.STICKERS_PNG_SHORT_NAME
+    packshortname = f"Zayn_Malik_pack1"
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "@UniBorg_Sticker.png"
